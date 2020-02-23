@@ -1,0 +1,5 @@
+contents="bashcms2_constents"
+contents_owner="saori-a11y"
+wwwdir="/var/www"
+contentsdir="$wwwdir/$contents"
+appdir="$wwwdir/bashcms2"
