@@ -4,8 +4,8 @@ source "$(dirname $0)/bin/conf"
 [ "$USER" = "root" ] # USER MUST BE ROOT
 
 ### PULL DATA ###
-rm -rf "${contentsdir:?}"
+rm -rf "${constentsdir:?}"
 cd "$wwwdir"
-git clone "https://github.com/$contents_owner/$contents"
-chown www-data:www-data "$contentsdir" -R
+git clone "https://github.com/$constents_owner/$constents"
+chown www-data:www-data "$constentsdir" -R
 
